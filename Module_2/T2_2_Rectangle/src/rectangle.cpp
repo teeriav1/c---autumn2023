@@ -25,6 +25,20 @@ will need to actually calculate the area and circumference.
 // Write you function here and test it with the main.
 
 void Rectangle() {
-    
+    // Please enter width and height\n
+    float width;
+    float height;
+    printf("%s", "Please enter width and height\n");
+
+    //cin >> width >> height;
+    scanf("%f %f", &width, &height);
+    //printf("%f %f", width, height);
+    /*
+    Area: 7.5
+    Circumference: 11*/
+    float area = width * height;
+    float Circumference = 2* width + 2* height;
+    printf("Area: %.1f\n", area);
+    printf("Circumference: %.1f\n", Circumference);
 }
 
