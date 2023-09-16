@@ -28,7 +28,7 @@ void Rectangle() {
     // Please enter width and height\n
     float width;
     float height;
-    printf("%s", "Please enter width and height\n");
+    printf("%s", "Please enter width and height");
 
     //cin >> width >> height;
     scanf("%f %f", &width, &height);
@@ -38,7 +38,7 @@ void Rectangle() {
     Circumference: 11*/
     float area = width * height;
     float Circumference = 2* width + 2* height;
-    printf("Area: %.1f\n", area);
-    printf("Circumference: %.1f\n", Circumference);
+    printf("Area: %.1f", area);
+    printf("Circumference: %.1f", Circumference);
 }
 
