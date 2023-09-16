@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "rectangle.hpp"
+//#include "rectangle.hpp"
 
 void Rectangle() {
     // Please enter width and height\n
